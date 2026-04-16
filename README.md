@@ -29,14 +29,17 @@ Clone the repository and install the dependencies :
 ```bash
 git clone https://github.com/soupirr/blast-gui.git
 cd blast-gui
-pip install biopython customtkinter jupyter
+pip install biopython customtkinter
 ```
 
 ---
 
 ## Usage
 
-1. Open blast_gui.ipynb in Jupyter Notebook or JupyterLab and run the last cell.
+1. Run the script :
+```bash
+python blast_gui.py
+```
 2. Provide a FASTA file path or use the **Browse** button
 3. Optionally set an output file path (auto-generated if left empty)
 4. Select the BLAST type (**BlastN** or **BlastP**)
